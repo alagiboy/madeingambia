@@ -9,8 +9,8 @@ import '../public/css/madeingambia.css';
 import './index.css';
 
 ReactDOM.render(
-//  <App />,
-<ParentLayout />,
+  <App />,
+//<ParentLayout />,
 /*  <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Companies}></IndexRoute>
