@@ -8,7 +8,7 @@ import AddCompany from './components/RegistrationForm';
 import DATA from '../data.js';
 //import {Link} from 'react-router'
 
-class App extends Component {
+class ParentLayout extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -49,7 +49,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="ParentLayout">
         <div className="container-fluid lt-gray-bg" id="logo">
               <div className="row-fluid">
                   <div className="span12">
@@ -79,4 +79,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default ParentLayout;

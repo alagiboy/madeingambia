@@ -1,3 +1,16 @@
+{
+  books.reduce((pairs, book, index) => { // split the books into pairs
+    if(index % 2 === 0) {
+       pairs.push([]);
+    }
+    pairs[pairs.length - 1].push(book);
+    return pairs;
+  }, []).map((pair, index) => ( // map the pairs to row
+    <BooksRow key={ index } bookPair={ pair } />
+  ))
+}
+
+
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 //import './App.css';
@@ -78,5 +91,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
