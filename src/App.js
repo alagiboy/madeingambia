@@ -14,7 +14,7 @@ class App extends Component {
     this.state = {
         companies: [],
         approved_companies: [],
-        logoMain : './logo.svg'
+        logoMain : '../img/logo.png'
       };
   }
 //fetch data from store
@@ -50,21 +50,25 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container-fluid lt-gray-bg" id="logo">
+        <div className="container-fluid lt-gray-bg" id="header">
               <div className="row-fluid">
-                  <div className="span12">
-                      <a href=".">Sign-up Now!</a>
+                  <div className="span12 utility">
+                      <a className="signupLink" href=".">Add Your Company</a>
                   </div>
-                  <div className="span12">
-                      <a href="."><img src="http://placehold.it/400x400" width="300" height="274" alt="Made In Gambia"/></a>
+                  <div className="span12 hero">
+                      <a href="."><img src="img/logo.png" alt="Made In Gambia"/></a>
                   </div>
               </div>
         </div>
 
-        <div className="container-fluid lt-turquoise-bg" id="prom">
+        <div className="container-fluid" id="prom">
             <div className="row-fluid">
                 <div className="span12">
-                    <h2>These are some of the I.T. and Web Deveploment Companies Made In Gambia, GM!</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, vim decore appellantur ad, duo eu purto invidunt platonem, mea no nihil semper. Mea aeque accusamus philosophia at. Eu sit purto prompta scribentur, te vel purto menandri, duo delicata appellantur ea. Ne purto mutat temporibus nam, eu ullum lobortis mnesarchum quo. Te ius legere invidunt, labore dissentias et per. Ut vide sensibus corrumpit pri, ea nam eros admodum euripidis.
+Noster timeam at pri.</p>
+                    <p> No mea laudem mediocritatem. Impetus aperiam at sed, suas invidunt accusamus pro ei. Legimus assentior vel ut, eu feugiat omnesque principes nec. Vocibus deserunt persecuti at mei, has sumo quot consectetuer an.
+                    </p>
                 </div>
             </div>
         </div>

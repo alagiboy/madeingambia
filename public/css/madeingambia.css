@@ -18,6 +18,25 @@ body {
 .white-fg a:hover {
     text-decoration: underline;
 }
+.utility {
+  background: #f3f1f2;
+  min-height: 50px;
+}
+.signupLink {
+  float: right;
+  padding: 12px 20px;
+  text-decoration: none;
+  background-color: #187ecf;
+  color: #f5f4f5;
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 1.43em;
+}
+.hero {
+  background: #ccc url(/static/media/bnr.68cf2cb1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*
 .lt-gray-bg {
     background-image: url(../img/bg-light-grey.jpg);
@@ -33,19 +52,37 @@ body {
 
 #logo, #prom {
     margin: 0;
-    padding: 25px 0;
+    padding: 0;
 }
-
+#prom {
+  margin: -40px 5% 0;
+  background: #f3f1f2;
+  min-height: 200px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+}
+.hero img{
+  width: 400px;
+}
 #companies .span4 {
-    line-height: 130px;
-    text-align: center;
+  display: inline-block;
+  padding: 20px;
 }
 
 #companies .company {
-    display: block;
+    display: inline;
     max-height: 200px;
     max-width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
+}
+#prom p {
+  text-align: left;
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  word-spacing: 1px;
+  padding: 10px 20px;
+  color: #555;
 }
 
 .company img {
@@ -118,6 +155,26 @@ body {
 
 .gimmespace {
     height:8em;
+}
+
+.company a:hover{
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  font-size: 13px;
+  line-height: 2;
+  text-decoration: none;
+  color: #888;
+  background: #fff;
+  background: rgba(255,255,255,0.96);
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 @media (max-width: 767px) {
