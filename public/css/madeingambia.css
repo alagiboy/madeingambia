@@ -56,11 +56,11 @@ body {
 }
 #prom {
   margin: -40px 5% 0;
-  background: #f3f1f2;
+  background: #fffefe;
   min-height: 200px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-shadow: 2px 2px 2px #ccc;
+  box-shadow: 2px 2px 2px 2px #ccc;
 }
 .hero img{
   width: 400px;
@@ -86,9 +86,12 @@ body {
 }
 
 .company img {
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 280px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 350px;
+  background: #fffefe;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 .noththree {
